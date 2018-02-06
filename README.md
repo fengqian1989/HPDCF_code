@@ -17,11 +17,13 @@ We only provide Caffe Toolbox based on CPU. If GPU mode is needed, please set fe
 ## Demo
 A matlab demo code is provided:
 
-##*Step 1: OpenCV Lib and Caffe Toolbox<br>
+*Step 1: Some external libraries<br>
+You need download some [external libraries](https://drive.google.com/open?id=1r1ROZ261vAUW5987He5LOP0eblZL5WRc).<br>
+*Step 2: OpenCV Lib and Caffe Toolbox<br>
 You need download OpenCV Lib and install in your system. You could use the provided Caffe Toolbox based on CPU, or recompile it in GPU mode.<br>
-##*+Step 2: Parameters Defination<br>
+*Step 3: Parameters Defination<br>
 You could set some important parameters in HPDCF_setup.m, while other parameters could also be changed in the corrsponding Class Defination. Simply, you can just use the default parameters.<br>
-##*+Step 3: Input Samples<br>
+*Step 4: Input Samples<br>
 You can test different samples by changing vid_path in demo.m<br>
-##*+Step 4: HPFCF<br>
+*Step 5: HPFCF<br>
 Now you can run the matlab file "script_demo.m" to extract TDD features.<br>
